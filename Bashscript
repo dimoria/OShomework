@@ -1,0 +1,5 @@
+grep '/bin/bash' /etc/passwd | cut -d: -f1
+./find_bash_users.sh
+root
+ubuntu
+kc-internal
